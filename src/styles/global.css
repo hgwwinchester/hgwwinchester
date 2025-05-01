@@ -1,8 +1,8 @@
 @import "tailwindcss";
-@import '@fontsource-variable/outfit';
+@import '@fontsource-variable/jetbrains-mono';
 
 @theme {
-    --font-outfit: "Outfit Variable", serif;
+    --font-mono: "Jetbrains Mono", monospace;
 }
 
 :root {
@@ -10,5 +10,5 @@
 }
 
 body {
-    font-family: var(--font-outfit), serif;
+    font-family: var(--font-mono), monospace;
 }
