@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import '@fontsource-variable/outfit';
+
+@theme {
+    --font-outfit: "Outfit Variable", serif;
+}
+
+:root {
+    font-size: 18px;
+}
+
+body {
+    font-family: var(--font-outfit), serif;
+}
